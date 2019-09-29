@@ -4,9 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing=none",
-    "package": "cat dist/elements-demo/{runtime,polyfills,scripts,main}.js | gzip > elements.js.gz",
-    "serve": "http-server --gzip",
+    "build": "ng build --prod --output-hashing none --single-bundle true",
+    "serve": "http-server ./dist/brazilian-states",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -22,10 +21,11 @@
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
+    "document-register-element": "^1.7.2",
+    "ngx-build-plus": "^8.1.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1",
-    "document-register-element": "^1.7.2"
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.802.0",

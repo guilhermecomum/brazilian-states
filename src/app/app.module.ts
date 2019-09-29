@@ -14,14 +14,15 @@ import { ButtonComponent } from './button/button.component';
   imports: [
     BrowserModule,
   ],
+  providers: [],
+  //bootstrap: [AppComponent],
   entryComponents: [ButtonComponent]
 })
 
 export class AppModule {
-  constructor(private injector: Injector) {
-    const customButton = createCustomElement(ButtonComponent, { injector });
+  constructor(private injector: Injector) {}
+  ngDoBootstrap() {
+    const customButton = createCustomElement(ButtonComponent, { injector: this.injector });
     customElements.define('custom-button', customButton);
   }
-
-  ngDoBootstrap() {}
 }

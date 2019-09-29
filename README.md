@@ -1,27 +1,8 @@
 # BrazilianStates
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## References
+* https://www.techiediaries.com/custom-elements-shadow-dom/
+* https://github.com/sulco/angular-6-web-components
+* https://www.softwarearchitekt.at/en/aktuelles/%F0%9F%8C%BF%F0%9F%93%A6%F0%9F%85%B0%EF%B8%8F-web-components-with-angular-ivy-in-6-steps/
+* https://medium.com/swlh/build-micro-frontends-using-angular-elements-the-beginners-guide-75ffeae61b58
+* https://medium.com/@tomastrajan/the-best-way-to-lazy-load-angular-elements-97a51a5c2007
